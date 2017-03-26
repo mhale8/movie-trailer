@@ -1,0 +1,73 @@
+// Typography Styling
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai');
+
+
+    
+
+header {
+    h1 {
+        font-family: 'Trajanus Roman';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 6em;
+        text-align: center;
+        color: #FFFFFF; 
+        letter-spacing: 0.17em;
+        margin: 25px;
+        text-transform: uppercase;
+        text-align: center; 
+        word-spacing: -30px;
+        }
+    
+    h2 {
+        color: #FFFFFF;
+        font-family: 'Trajanus Roman';
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        text-align: center;
+        text-transform: uppercase;
+        }
+    
+
+}
+  
+
+main {
+    color: #042838;
+    
+    .firsth2 {
+        font-family: 'Trajanus Roman';
+        font-size: 2em;
+        text-align: right;
+        letter-spacing: 0.1em;
+        margin-top: 0;
+        word-spacing: -15px;
+        padding-right: 25px;
+        color: #343f4d;
+        width: 800px;
+    }
+    
+}
+
+p {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 1em;
+    }
+
+
+
+a:link,
+a:visited {
+    color: #FFFFFF;
+    text-decoration:  none;
+}
+
+a:hover {
+    color: #97b8e4;
+    text-decoration:  none;
+}
+
+a:focus {color: #333333;}
+a:active {color: #2d3744;}
+

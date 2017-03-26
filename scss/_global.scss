@@ -1,0 +1,123 @@
+
+//Content Styling
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #042838;
+}
+
+
+.details{
+    margin-left:90px;
+    font-size: 25px;
+    color: #323b46;
+}
+
+
+section {
+    margin: 70px;
+}
+
+
+main {
+    width: 75%;
+    background: rgba(255, 255, 255, 0.55);
+    margin: 50px auto;
+    
+    article {
+        margin: 0 2em;
+        align-content: center;
+    } 
+    
+    aside {
+        margin-right: 2em
+    }
+}
+
+
+ul{
+  margin-top:60px;
+  padding-left:60px;
+}
+
+
+
+
+//Header Styling
+header {
+    margin: 300px auto;
+}
+
+
+
+//Footer Styling
+footer {
+    background: #506178;
+    height: 70px;
+    p {
+        text-align: center;
+        padding-top: 30px;
+        color: #FFFFFF;
+    }
+}
+
+
+
+//Button Styling
+.button1 {
+    background:    #526072;
+    border-radius: 5px;
+    color:         #fff;
+    display:       inline-block;
+    width:         230px;
+    height:        50px;
+    font:          normal 400 19px/50px "Roboto", sans-serif;
+    text-align:    center;
+    text-shadow:   none;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    background:    #526072;
+    border-radius: 5px;
+    color:         #fff;
+    width:         230px;
+    height:        50px;
+    font:          normal 400 19px/50px "Roboto", sans-serif;
+    text-align:    center;
+    text-shadow:   none;
+    margin-bottom: 20px;
+}
+
+.button3 {
+    background:    #526072;
+    border-radius: 5px;
+    color:         #fff;
+    display:       inline-block;
+    width:         230px;
+    height:        50px;
+    font:          normal 400 19px/50px "Roboto", sans-serif;
+    text-align:    center;
+    text-shadow:   none;
+}
+
+
+
+//Video Player Styling
+video {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    
+    .mejs__time {
+    color: rgb(177, 214, 232);
+    }
+    
+    .mejs__time-total {
+        background: rgb(4, 40, 56);
+    }
+        
+}
+

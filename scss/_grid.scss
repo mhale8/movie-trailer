@@ -1,0 +1,14 @@
+// Flexbox Grid
+
+.page {
+    display: flex;
+}
+
+header,
+section,
+article,
+aside,
+main,
+footer, {
+    flex: 1;
+}
